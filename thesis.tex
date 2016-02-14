@@ -1,20 +1,25 @@
-% Document type and packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document type, global settings, and packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \documentclass[11pt]{report}
 \usepackage{graphicx}
-
-% Title Page
-
-\title{\textbf{Georgia Tech Thesis Template}}
-\author{George P. Burdell}
-\date{\today}
+\usepackage[letterpaper, left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
 
 % Start of Document
 
 \begin{document}
 
-\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\input{titlePage.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % List of figures and tables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \tableofcontents
 \listoffigures
 \listoftables
