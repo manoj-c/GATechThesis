@@ -1,3 +1,45 @@
-\begin{thebibliography}{}
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\end{thebibliography}
+\entry{KandR}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kernighan}{K.}%
+     {Brian~W.}{B.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ritchie}{R.}%
+     {Dennis~M.}{D.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Prentice-Hall, Inc.}%
+  }
+  \strng{namehash}{KBWRDM1}
+  \strng{fullhash}{KBWRDM1}
+  \field{sortinit}{K}
+  \field{title}{{The C Programming Language Second Edition}}
+  \field{year}{1988}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

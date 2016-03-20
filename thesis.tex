@@ -3,14 +3,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[12pt]{report}   %12 point font for Times New Roman
-\usepackage{graphicx}
+\usepackage{graphicx}  %for images and plots
 \usepackage[letterpaper, left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
 \usepackage{setspace}  %use this package to set linespacing as desired
 \usepackage{times}  %set Times New Roman as the font
-\usepackage{titlesec}
-\usepackage{tocloft}
+\usepackage{titlesec}  %titleferences manager page(s) control and formatting
+\usepackage{tocloft}  %table of contents control and formatting
+\usepackage[backend=bibtex]{biblatex}  %reference manager
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{references}
+
+%%%%%%%%%%%%%%%%%%%%%%
 % Start of Document
+%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 \doublespacing  %set line spacing
@@ -28,6 +38,26 @@
 \input{approvalPage.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Epigraph
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{epigraph.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dedication
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{dedication.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{roman}
+\setcounter{page}{5} % set the page number appropriately based on the number of intro pages
+\input{acknowledgements.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Table of Contents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -39,15 +69,13 @@
 \renewcommand{\cftchapaftersnum}{:}
 \renewcommand{\cftchapnumwidth}{5em}
 
-\pagenumbering{roman}
-\setcounter{page}{3} % set the page number appropriately
+
 \tableofcontents
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % List of figures and tables
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \listoffigures
 \clearpage
@@ -59,15 +87,7 @@
 % This is the Summary (abstract should be separate document)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\clearpage
-\begin{centering}
-\textbf{SUMMARY}\\
-\vspace{\baselineskip}
-\end{centering}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-\pagenumbering{gobble}  %remove page number on summary page
+\input{summary.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -91,7 +111,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %%%%%%%%%%%%%%%%
 
 \chapter{Introduction and Background}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat \cite{KandR}. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 % This is a figure
 \begin{figure}
@@ -134,5 +154,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 \addcontentsline{toc}{chapter}{References}
 \chapter*{References}
+\printbibliography
 
 \end{document}

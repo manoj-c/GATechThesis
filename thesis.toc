@@ -1,5 +1,15 @@
-\contentsline {chapter}{\numberline {1}Introduction and Background}{2}
-\contentsline {chapter}{\numberline {2}Technical Approach}{4}
-\contentsline {chapter}{\numberline {3}Results}{5}
-\contentsline {chapter}{\numberline {4}Discussion}{6}
-\contentsline {chapter}{\numberline {5}Conclusion}{7}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction and Background}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Technical Approach}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Chapter 2 Section}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Results}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Discussion}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{6}
