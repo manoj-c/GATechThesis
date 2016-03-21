@@ -9,7 +9,7 @@
 \usepackage{times}  %set Times New Roman as the font
 \usepackage{titlesec}  %titleferences manager page(s) control and formatting
 \usepackage{tocloft}  %table of contents control and formatting
-\usepackage[backend=bibtex]{biblatex}  %reference manager
+\usepackage[backend=bibtex, sorting=none]{biblatex}  %reference manager
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -50,7 +50,7 @@
 \input{dedication.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Acknowledgements
+% Acknowledgments
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \pagenumbering{roman}
@@ -95,6 +95,10 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%
+% formatting
+%%%%%%%%%%%%%%%%%%%%%%
+
 % resume page numbering for rest of document
 \clearpage
 \pagenumbering{arabic}
@@ -110,50 +114,37 @@
 % Chapter 1
 %%%%%%%%%%%%%%%%
 
-\chapter{Introduction and Background}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat \cite{KandR}. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\input{chapter1.tex}
 
-% This is a figure
-\begin{figure}
-\includegraphics[width=\textwidth]{figures/exampleFigure.png}
-\caption{This is an example Figure.}
-\label{Figure in Chapter 1}
-\end{figure}
+%%%%%%%%%%%%%%%%
+% Chapter 2
+%%%%%%%%%%%%%%%%
 
-% This is a table
+\input{chapter2.tex}
 
-\begin{table}
-\caption{This is an example Table.}
-\begin{center}
-\begin{tabular}{ccc}
-x & f(x) & g(x) \\
-\hline
-1 & 6 & 4  \\
-2 & 6 & 3  \\
-3 & 6 & 2  \\
-4 & 6 & 2  \\
-\label{Table in Chapter 1}
-\end{tabular}
-\end{center}
-\end{table}
+%%%%%%%%%%%%%%%%
+% Chapter 3
+%%%%%%%%%%%%%%%%
 
+\input{chapter3.tex}
 
-\chapter{Technical Approach}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+%%%%%%%%%%%%%%%%
+% Chapter 4
+%%%%%%%%%%%%%%%%
 
-\section{Chapter 2 Section}
+\input{chapter4.tex}
 
-\chapter{Results}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+%%%%%%%%%%%%%%%%
+% Chapter 5
+%%%%%%%%%%%%%%%%
 
-\chapter{Discussion}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..
+\input{chapter5.tex}
 
-\chapter{Conclusion}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+%%%%%%%%%%%%%%%%
+% References
+%%%%%%%%%%%%%%%%
 
-\addcontentsline{toc}{chapter}{References}
-\chapter*{References}
-\printbibliography
+\printbibliography[title={References}]
+\addcontentsline{toc}{chapter}{References}  %add References section to Table of Contents
 
 \end{document}

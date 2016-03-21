@@ -16,7 +16,7 @@
   {}
 \endgroup
 
-\entry{KandR}{book}{}
+\entry{ref1}{book}{}
   \name{author}{2}{}{%
     {{}%
      {Kernighan}{K.}%
@@ -34,9 +34,25 @@
   }
   \strng{namehash}{KBWRDM1}
   \strng{fullhash}{KBWRDM1}
-  \field{sortinit}{K}
   \field{title}{{The C Programming Language Second Edition}}
   \field{year}{1988}
+\endentry
+
+\entry{ref2}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Burdell}{B.}%
+     {George~P.}{G.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Real Books, Inc.}%
+  }
+  \strng{namehash}{BGP1}
+  \strng{fullhash}{BGP1}
+  \field{title}{{Myths and Their Origins}}
+  \field{year}{2016}
 \endentry
 
 \lossort
