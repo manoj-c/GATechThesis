@@ -9,7 +9,7 @@
 \usepackage{times}  %set Times New Roman as the font
 \usepackage[explicit]{titlesec}  %title control and formatting
 \usepackage[titles]{tocloft}  %table of contents control and formatting
-\usepackage[backend=bibtex, sorting=none]{biblatex}  %reference manager
+\usepackage[backend=bibtex, sorting=none, bibstyle=ieee]{biblatex}  %reference manager
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -17,6 +17,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \bibliography{references}
+
+% prevent certain fields in references from printing in bibliography
+\AtEveryBibitem{\clearfield{issn}}
+\AtEveryBibitem{\clearlist{issn}}
+
+\AtEveryBibitem{\clearfield{language}}
+\AtEveryBibitem{\clearlist{language}}
+
+\AtEveryBibitem{\clearfield{doi}}
+\AtEveryBibitem{\clearlist{doi}}
+
+\AtEveryBibitem{\clearfield{url}}
+\AtEveryBibitem{\clearlist{url}}
+
+\AtEveryBibitem{%
+  \ifentrytype{online}
+    {}
+    {\clearfield{urlyear}\clearfield{urlmonth}\clearfield{urlday}}}
 
 %%%%%%%%%%%%%%%%%%%%%%
 % Start of Document
@@ -119,6 +137,7 @@
 
 % Adjust subsection title formatting
 \titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{#1}
+
 %%%%%%%%%%%%%%%%
 % Chapter 1
 %%%%%%%%%%%%%%%%
