@@ -49,24 +49,28 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{titlePage.tex}
+\currentpdfbookmark{Title Page}{titlePage}  %add PDF bookmark for this page
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Approval Page
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{approvalPage.tex}
+\currentpdfbookmark{Approval Page}{approvalPage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Epigraph
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{epigraph.tex}
+\currentpdfbookmark{Epigraph}{epigraph}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Dedication
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{dedication.tex}
+\currentpdfbookmark{Dedication}{dedication}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Acknowledgments
@@ -75,6 +79,7 @@
 \pagenumbering{roman}
 \setcounter{page}{5} % set the page number appropriately based on the number of intro pages
 \input{acknowledgements.tex}
+\currentpdfbookmark{Acknowledgments}{acknowledgments}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Table of Contents
@@ -94,6 +99,9 @@
 
 \renewcommand\contentsname{Table of Contents}
 \tableofcontents
+
+\currentpdfbookmark{Table of Contents}{TOC}
+
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
