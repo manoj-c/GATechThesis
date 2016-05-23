@@ -1,5 +1,29 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
+\cftpagenumbersoff {chapter}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Approval Page}{1}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\cftpagenumberson {chapter}
+\defcounter {refsection}{0}\relax 
+\cftpagenumbersoff {chapter}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Epigraph}{1}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\cftpagenumberson {chapter}
+\defcounter {refsection}{0}\relax 
+\cftpagenumbersoff {chapter}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Dedication}{v}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\cftpagenumberson {chapter}
+\defcounter {refsection}{0}\relax 
+\cftpagenumbersoff {chapter}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgments}{vi}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\cftpagenumberson {chapter}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction and Background}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Technical Approach}{3}{chapter.2}

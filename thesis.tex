@@ -56,21 +56,33 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{approvalPage.tex}
-\currentpdfbookmark{Approval Page}{approvalPage}
+
+\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
+\addcontentsline{toc}{chapter}{Approval Page}
+%\currentpdfbookmark{Approval Page}{approvalPage}
+\addtocontents{toc}{\cftpagenumberson{chapter}} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Epigraph
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{epigraph.tex}
-\currentpdfbookmark{Epigraph}{epigraph}
+
+\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
+\addcontentsline{toc}{chapter}{Epigraph}
+%\currentpdfbookmark{Epigraph}{epigraph}
+\addtocontents{toc}{\cftpagenumberson{chapter}} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Dedication
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{dedication.tex}
-\currentpdfbookmark{Dedication}{dedication}
+
+\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
+\addcontentsline{toc}{chapter}{Dedication}
+%\currentpdfbookmark{Dedication}{dedication}
+\addtocontents{toc}{\cftpagenumberson{chapter}} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Acknowledgments
@@ -79,7 +91,11 @@
 \pagenumbering{roman}
 \setcounter{page}{5} % set the page number appropriately based on the number of intro pages
 \input{acknowledgements.tex}
-\currentpdfbookmark{Acknowledgments}{acknowledgments}
+
+\addtocontents{toc}{\cftpagenumbersoff{chapter}} 
+\addcontentsline{toc}{chapter}{Acknowledgments}
+%\currentpdfbookmark{Acknowledgments}{acknowledgments}
+\addtocontents{toc}{\cftpagenumberson{chapter}} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Table of Contents
@@ -92,13 +108,20 @@
 \renewcommand{\cftchappresnum}{Chapter }
 \renewcommand{\cftchapaftersnum}{:}
 \renewcommand{\cftchapnumwidth}{5em}
+\renewcommand{\cftchapafterpnum}{\vskip\baselineskip} %set correct spacing for entries in single space environment
+\renewcommand{\cftsecafterpnum}{\vskip\baselineskip}  %set correct spacing for entries in single space environment
+\renewcommand{\cftsubsecafterpnum}{\vskip\baselineskip} %set correct spacing for entries in single space environment
+\renewcommand{\cftsubsubsecafterpnum}{\vskip\baselineskip} %set correct spacing for entries in single space environment
 
 %format title font size and position (this also applys to list of figures and list of tables)
 \titleformat{\chapter}[display]
 {\normalfont\bfseries\filcenter}{\chaptertitlename\ \thechapter}{0pt}{\MakeUppercase{#1}}
 
 \renewcommand\contentsname{Table of Contents}
+
+\begin{singlespace}
 \tableofcontents
+\end{singlespace}
 
 \currentpdfbookmark{Table of Contents}{TOC}
 
@@ -108,10 +131,18 @@
 % List of figures and tables
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{singlespace}
+\setlength\cftbeforefigskip{\baselineskip}  %manually set spacing between entries
 \listoffigures
+\end{singlespace}
+
 \clearpage
 
-\listoftables
+\begin{singlespace}
+	\setlength\cftbeforetabskip{\baselineskip}  %manually set spacing between entries
+	\listoftables
+\end{singlespace}
+
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -181,7 +212,11 @@
 % References
 %%%%%%%%%%%%%%%%
 
-\printbibliography[title={References}]
+\begin{singlespace}  % use single-line spacing for multi-line text within a single reference
+	\setlength\bibitemsep{\baselineskip}  %manually set separataion betwen items in bibliography to double space
+	\printbibliography[title={References}]
+\end{singlespace}
+
 \addcontentsline{toc}{chapter}{References}  %add References section to Table of Contents
 
 \end{document}
