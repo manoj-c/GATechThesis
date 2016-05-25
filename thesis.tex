@@ -11,6 +11,7 @@
 \usepackage[titles]{tocloft}  %table of contents control and formatting
 \usepackage[backend=bibtex, sorting=none, bibstyle=ieee]{biblatex}  %reference manager
 \usepackage[bookmarks=true, hidelinks]{hyperref}
+\usepackage{appendix}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -207,6 +208,14 @@
 %%%%%%%%%%%%%%%%
 
 \input{chapter5.tex}
+
+%%%%%%%%%%%%%%%%
+% Appendices
+%%%%%%%%%%%%%%%%
+\renewcommand{\appendixname}{Appendix}
+%\renewcommand{\appendixtitletoc}{Appendix}
+
+\input{appendix.tex}
 
 %%%%%%%%%%%%%%%%
 % References
