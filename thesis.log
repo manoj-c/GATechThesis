@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.18)  23 MAY 2016 09:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.18)  30 MAY 2016 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,49 +455,63 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip88
 )
+(c:/texlive/2015/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count285
+\c@@ppsavesec=\count286
+\c@@ppsaveapp=\count287
+)
+(c:/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count288
+\rotFPtop=\skip89
+\rotFPbot=\skip90
+\rot@float@box=\box27
+\rot@mess@toks=\toks17
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (c:/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count285
-\@quotereset=\count286
+\@quotelevel=\count289
+\@quotereset=\count290
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 45.
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
+\scratchcounter=\count291
 \scratchdimen=\dimen122
-\scratchbox=\box27
-\nofMPsegments=\count288
-\nofMParguments=\count289
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count290
+\scratchbox=\box28
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count294
 \MPscratchDim=\dimen123
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
-\everyMPtoPDFconversion=\toks18
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks19
 ) (c:/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -556,21 +570,21 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 44.
-Package biblatex Info: Reference segment=0 on input line 44.
-\AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 44.
+Package biblatex Info: Reference section=0 on input line 45.
+Package biblatex Info: Reference segment=0 on input line 45.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 45.
  (c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (c:/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count293
+\c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -590,37 +604,22 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 
 {c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./approvalPag
 e.tex
-Underfull \hbox (badness 1596) in paragraph at lines 49--52
-\OT1/ptm/m/n/12 School of Ma-te-ri-als Sci-ence and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 67--70
-\OT1/ptm/m/n/12 School of Ma-te-ri-als Sci-ence and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
  []
 
@@ -629,13 +628,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 \end{titlepage}
-                     [1]) (./epigraph.texpdfTeX warning (ext4): destination wit
-h the same identifier (name{page.1}) has been already used, duplicate ignored
+l.133 \end{titlepage}
+                      [1]) (./epigraph.texpdfTeX warning (ext4): destination wi
+th the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.17 \end{titlepage}
@@ -654,34 +658,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 27.
-)
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
-
  [6
 
 
-]
-(./thesis.lof)
+])
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
+
+
+[7] (./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [7
+ [8
 
 
 ] (./thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- [8
+ [9
 
 
-] (./summary.tex) [9
+] (./summary.tex) [10
 
 
 ] (./chapter1.tex
 Chapter 1.
-<figures/exampleFigure.png, id=116, 792.9625pt x 434.62375pt>
+<figures/exampleFigure.png, id=137, 792.9625pt x 434.62375pt>
 File: figures/exampleFigure.png Graphic file (type png)
 
 <use figures/exampleFigure.png>
@@ -697,53 +701,72 @@ l.1 \chapter
 
 ] [2 <./figures/exampleFigure.png>]
 Chapter 2.
+File: figures/exampleFigure.png Graphic file (type png)
+<use figures/exampleFigure.png>
+Package pdftex.def Info: figures/exampleFigure.png used on input line 18.
+(pdftex.def)             Requested size: 650.43001pt x 356.50652pt.
 ) (./chapter3.tex [3
 
-]
+] [4]
 Chapter 3.
-) (./chapter4.tex [4
+) (./chapter4.tex [5
 
 ]
 Chapter 4.
-) (./chapter5.tex [5
+) (./chapter5.tex [6
 
 ]
 Chapter 5.
-) [6
+) (./appendix.tex [7
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
- [7
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+ [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+Appendix A.
+[9
+
+]
+Appendix B.
+) [10
+
+] (./vita.tex [11
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
+ [12
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E0F1521F971A29896D8BC854506473C9;703.
+(rerunfilecheck)             Checksum: EFCCC64F85B09E53749EFEC51E1A55DC;859.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  )
-(\end occurred when \iftrue on line 44 was incomplete) 
+(\end occurred when \iftrue on line 45 was incomplete) 
 Here is how much of TeX's memory you used:
- 11054 strings out of 493027
- 175038 string characters out of 6137684
- 355290 words of memory out of 5000000
- 14415 multiletter control sequences out of 15000+600000
- 11271 words of font info for 29 fonts, out of 8000000 for 9000
+ 11236 strings out of 493027
+ 177566 string characters out of 6137684
+ 358801 words of memory out of 5000000
+ 14574 multiletter control sequences out of 15000+600000
+ 13404 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,7n,48p,846b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,8n,48p,846b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2015/texmf-di
 st/fonts/enc/dvips/base/8r.enc}<c:/texlive/2015/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/20
 15/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (16 pages, 141070 bytes).
+Output written on thesis.pdf (22 pages, 145665 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 220 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

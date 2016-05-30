@@ -11,8 +11,8 @@
 \usepackage[titles]{tocloft}  %table of contents control and formatting
 \usepackage[backend=bibtex, sorting=none, bibstyle=ieee]{biblatex}  %reference manager
 \usepackage[bookmarks=true, hidelinks]{hyperref}
-\usepackage{appendix}
-\usepackage{rotating}
+\usepackage[page]{appendix}  %for appendices
+\usepackage{rotating}  %for rotated, landscape images
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliography
@@ -212,8 +212,6 @@
 %%%%%%%%%%%%%%%%
 % Appendices
 %%%%%%%%%%%%%%%%
-\renewcommand{\appendixname}{Appendix}
-%\renewcommand{\appendixtitletoc}{Appendix}
 
 \input{appendix.tex}
 
