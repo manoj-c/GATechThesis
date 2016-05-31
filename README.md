@@ -1,9 +1,12 @@
 # Georgia Tech - Thesis Template
 
-*Georgia Institute of Technology
-Graduate Student Government Association
-Department of Graduate Studies
-2016*
+*Georgia Institute of Technology*
+
+*Graduate Student Government Association*
+
+*Department of Graduate Studies*
+
+*2016*
 
 This is a thesis template that meets the official institute formatting requirements from the Georgia Institute of Technology.
 While no official support is provided, this template was developed by Georgia Tech's Graduate Student Government Association (Grad SGA),
