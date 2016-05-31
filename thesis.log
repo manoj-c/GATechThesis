@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.18)  30 MAY 2016 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.18)  30 MAY 2016 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -480,21 +480,21 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
  (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 46.
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -570,10 +570,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 45.
-Package biblatex Info: Reference segment=0 on input line 45.
+Package biblatex Info: Reference section=0 on input line 46.
+Package biblatex Info: Reference segment=0 on input line 46.
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 46.
  (c:/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -582,9 +582,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -592,44 +592,44 @@ LaTeX Info: Redefining \nameref on input line 45.
 
  (./titlePage.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 40.
 
 (c:/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
  [1
 
 {c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./approvalPag
 e.tex
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+Underfull \hbox (badness 10000) in paragraph at lines 82--85
 
  []
 
@@ -637,18 +637,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 \end{titlepage}
+l.136 \end{titlepage}
                       [1]) (./epigraph.texpdfTeX warning (ext4): destination wi
 th the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 \end{titlepage}
+l.20 \end{titlepage}
                      [1]) (./dedication.texpdfTeX warning (ext4): destination w
 ith the same identifier (name{page.1}) has been already used, duplicate ignored
 
 <to be read again> 
                    \relax 
-l.15 \end{titlepage}
+l.18 \end{titlepage}
                      [1]) (./acknowledgements.tex [5
 
 ]) (./thesis.toc
@@ -689,70 +689,71 @@ Chapter 1.
 File: figures/exampleFigure.png Graphic file (type png)
 
 <use figures/exampleFigure.png>
-Package pdftex.def Info: figures/exampleFigure.png used on input line 6.
+Package pdftex.def Info: figures/exampleFigure.png used on input line 7.
 (pdftex.def)             Requested size: 433.62001pt x 237.671pt.
-) (./chapter2.texpdfTeX warning (ext4): destination with the same identifier (n
-ame{page.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Technical Approach} [1
+l.19 L
+      orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...
+[1
 
 
-] [2 <./figures/exampleFigure.png>]
+] [2 <./figures/exampleFigure.png>]) (./chapter2.tex [3]
 Chapter 2.
 File: figures/exampleFigure.png Graphic file (type png)
 <use figures/exampleFigure.png>
 Package pdftex.def Info: figures/exampleFigure.png used on input line 18.
 (pdftex.def)             Requested size: 650.43001pt x 356.50652pt.
-) (./chapter3.tex [3
+) (./chapter3.tex [4
 
-] [4]
+] [5]
 Chapter 3.
-) (./chapter4.tex [5
+) (./chapter4.tex [6
 
 ]
 Chapter 4.
-) (./chapter5.tex [6
+) (./chapter5.tex [7
 
 ]
 Chapter 5.
-) (./appendix.tex [7
+) (./appendix.tex [8
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [8
+ [9
 
 ]
 Appendix A.
-[9
+[10
 
 ]
 Appendix B.
-) [10
+) [11
 
-] (./vita.tex [11
+] (./vita.tex [12
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
- [12
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+ [13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: EFCCC64F85B09E53749EFEC51E1A55DC;859.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  )
-(\end occurred when \iftrue on line 45 was incomplete) 
+(\end occurred when \iftrue on line 46 was incomplete) 
 Here is how much of TeX's memory you used:
- 11236 strings out of 493027
- 177566 string characters out of 6137684
+ 11237 strings out of 493027
+ 177573 string characters out of 6137684
  358801 words of memory out of 5000000
  14574 multiletter control sequences out of 15000+600000
  13404 words of font info for 32 fonts, out of 8000000 for 9000
@@ -763,10 +764,10 @@ st/fonts/enc/dvips/base/8r.enc}<c:/texlive/2015/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb><c:/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/20
 15/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (22 pages, 145665 bytes).
+Output written on thesis.pdf (23 pages, 147364 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
