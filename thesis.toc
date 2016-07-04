@@ -1,28 +1,10 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\cftpagenumbersoff {chapter}
+\contentsline {chapter}{Acknowledgments}{v}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Approval Page}{1}{Doc-Start}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.1}
 \defcounter {refsection}{0}\relax 
-\cftpagenumberson {chapter}
-\defcounter {refsection}{0}\relax 
-\cftpagenumbersoff {chapter}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Epigraph}{1}{Doc-Start}
-\defcounter {refsection}{0}\relax 
-\cftpagenumberson {chapter}
-\defcounter {refsection}{0}\relax 
-\cftpagenumbersoff {chapter}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Dedication}{v}{Doc-Start}
-\defcounter {refsection}{0}\relax 
-\cftpagenumberson {chapter}
-\defcounter {refsection}{0}\relax 
-\cftpagenumbersoff {chapter}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Acknowledgments}{vi}{Doc-Start}
-\defcounter {refsection}{0}\relax 
-\cftpagenumberson {chapter}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction and Background}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 

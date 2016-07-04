@@ -55,6 +55,45 @@
   \field{year}{2016}
 \endentry
 
+\entry{ref3}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Einstein}{E.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Podolsky}{P.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rosen}{R.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Physical Society}%
+  }
+  \strng{namehash}{EAPBRN1}
+  \strng{fullhash}{EAPBRN1}
+  \verb{doi}
+  \verb 10.1103/PhysRev.47.777
+  \endverb
+  \field{issue}{10}
+  \field{pages}{777\bibrangedash 780}
+  \field{title}{Can Quantum-Mechanical Description of Physical Reality Be
+  Considered Complete?}
+  \verb{url}
+  \verb http://link.aps.org/doi/10.1103/PhysRev.47.777
+  \endverb
+  \field{volume}{47}
+  \field{journaltitle}{Phys. Rev.}
+  \field{year}{1935}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \lossort
 \endlossort
 
